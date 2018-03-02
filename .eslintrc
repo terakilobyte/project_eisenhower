@@ -34,7 +34,6 @@
     "no-nested-ternary": 0,
     "no-param-reassign": 0,
     "no-shadow": 0,
-    "import/imports-first": 0,
     "react/jsx-filename-extension": 0,
     "jsx-a11y/html-has-lang": 0,
     "jsx-a11y/anchor-is-valid": 0,
@@ -43,7 +42,9 @@
     "react/no-unused-prop-types": 0,
     "class-methods-use-this": 0,
     "react/require-default-props": 0,
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "semi": [1, "never"],
+    "linebreak-style": ["error", "windows"]
   },
   "settings": {
     "import/resolver": {

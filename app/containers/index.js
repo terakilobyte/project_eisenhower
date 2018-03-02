@@ -7,3 +7,5 @@ export FooterContainer from './Footer/FooterContainer'
 
 export HomeContainer from './Home/HomeContainer'
 export HeroContainer from './Hero/HeroContainer'
+
+export EventDetailContainer from './EventDetail/EventDetailContainer'

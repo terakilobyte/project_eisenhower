@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
-import { MainContainer, HomeContainer, ScrollToTopOnMount } from 'containers'
+import { MainContainer, HomeContainer, ScrollToTopOnMount, EventDetailContainer } from 'containers'
 
 const getRoutes = () => (
   <Router>
@@ -8,6 +8,7 @@ const getRoutes = () => (
       <MainContainer>
         <Switch>
           <Route exact path="/" component={HomeContainer} />
+          <Route path="/eventDetail" component={EventDetailContainer} />
           <Route render={() => <Redirect to="/" />} />
         </Switch>
       </MainContainer>
